@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Porte-folio</title>
+    <link rel="stylesheet" href="../frontend/styles/styles.css" />
+    <link rel="stylesheet" href="../frontend/styles/modale.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Michroma&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!--script-->
+    <script src="../frontend/script/rocket.js" defer></script>
+    <script src="../frontend/script/slide.js" defer></script>
+    <script src="../frontend/script/side_left.js" defer></script>
+    <script src="../frontend/script/contact.js" defer></script>
+    <script src="../frontend/script/skills.js" defer></script>
+    <script src="../frontend/script/modale.js"defer></script>
+    <script src="../frontend/script/burger.js"defer></script>
+  </head>
+  <body>
+    <header>
+      <img src="../images/banner_2.png" alt="Image du header" class="banner" />
+
+      <!-- Div pour le fond noir -->
+      <div class="background-overlay"></div>
+
+      <!-- Div pour le texte -->
+      <div class="header-text">
+        <h1>DÉVELOPPEUR WEB</h1>
+        <div class="divider"></div>
+        <p>& MODDING</p>
+      </div>
+    </header>
+
+
+<!-- Menu sticky avec barre de fond -->
+<nav class="sticky-menu">
+    <!-- Menu burger -->
+    <div class="burger-menu">
+        <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+    </div>
+    <div class="portal" id="portal">
+        <img src="../images/portal.png" alt="portal" />
+    </div>
+    <ul class="hidden">
+        <li><a href="#presentation">PRÉSENTATION</a></li>
+        <li><a href="#project-anchor">PROJETS</a></li>
+        <li><a href="#activities">ACTIVITÉS</a></li>
+        <li><a href="#skills-anchor">COMPÉTENCES</a></li>
+        <li><a href="#modding-anchor">MODDING</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+    </ul>
+</nav>
+
+
+      <!-- PRESENTATION -->
+<section id="presentation">
+    <h2>ALEXANDRE VASLIN</h2>
+    <div class="divider-2"></div>
+    <p>
+        J'ai découvert ma passion pour le web assez jeune, en créant mes
+        premiers sites WordPress.<br />
+        En m'intéressant au modding en 2022, j'ai commencé à coder, et ça a
+        été une véritable révélation.
+    </p>
+    <br />
+    <p>
+        Depuis, je mets cette passion et ces compétences au service de<br />
+        projets web créatifs et professionnels.
+    </p>
+    <div class="launcher">
+        <img src="../images/fusee.png" alt="Rocket" id="rocket" />
+    </div>
+</section>
+
+
+
+     <!-- PROJETS -->
+
+<div id="project-anchor"></div>
+
+<section id="projects">
+    <div class="projects-background">
+        <h2>PROJETS</h2>
+    </div>
+
+    <div class="project-container">
+        <div class="project slide-in">
+            <img src="../images/kasa.png" alt="React Frontend" class="react"/>
+            <div class="tech-overlay">
+                <h3>REACT / FRONTEND</h3><br>
+            </div>
+        </div>
+
+        <div class="project slide-in">
+            <img src="../images/photographe.png" alt="JavaScript Frontend" class="javascript" />
+            <div class="tech-overlay">
+                <h3>JAVASCRIPT / FRONTEND</h3><br>
+            </div>
+        </div>
+
+        <div class="project slide-in">
+            <img src="../images/booki.png" alt="HTML/CSS" class="html-css" />
+            <div class="tech-overlay">
+                <h3>HTML / CSS</h3>
+            </div>
+        </div>
+
+        <div class="project slide-in">
+            <img src="../images/optimisation.png" alt="Optimisation SEO" class="optimisation" />
+            <div class="tech-overlay">
+                <h3>OPTIMISATION / SEO</h3><br>
+            </div>
+        </div>
+
+        <div class="project slide-in">
+            <img src="../images/grimoire.png" alt="React Backend" class="backend" />
+            <div class="tech-overlay">
+                <h3>REACT / BACKEND</h3><br>
+            </div>
+        </div>
+
+        <div class="project slide-in">
+            <img src="../images/zmp.png" alt="En Cours" class="en-cours" />
+            <div class="tech-overlay">
+                <h3>EN COURS...</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- MODALE -->
+<div id="project-modal" class="modal" style="display: none;">
+    <div class="modal-content">
+        <span class="close">&times;</span> 
+        <h2 id="modal-title"></h2>
+        <div class="carousel">
+            <div id="modal-image-container">
+                <img id="modal-image" src="" alt="Project image" />
+            </div>
+            <div class="carousel-controls">
+                <button id="prev-btn">&#10094;</button>
+                <button id="next-btn">&#10095;</button>
+            </div>
+        </div>
+        <p id="modal-description"></p>
+    </div>
+</div>
+  
+
+      <!-- Activités -->
+<section id="activities" class="activities-section">
+    <div class="overlay">
+        <h2>ACTIVITÉS</h2>
+        <div class="activity-container">
+            <div class="activity slide-in-left">
+                <h3>MULTI - PLATEFORME</h3>
+                <div class="activity-icon">
+                    <img src="../images/devices.png" alt="Icône Activité 1" />
+                </div>
+                <div class="activity-description">
+                    <p>MOBILE</p>
+                    <p>TABLETTE</p>
+                    <p>ORDINATEUR</p>
+                </div>
+            </div>
+
+            <div class="activity slide-in-left">
+                <h3>DÉVELOPPEMENT WEB</h3>
+                <div class="activity-icon">
+                    <img src="../images/code.png" alt="Icône Activité 2" />
+                </div>
+                <div class="activity-description">
+                    <p>SITE WEB</p>
+                    <p>APPLICATION WEB</p>
+                    <p>BASE DE DONNÉES</p>
+                </div>
+            </div>
+
+            <div class="activity slide-in-left">
+                <h3>RÉFÉRENCEMENT SEO</h3>
+                <div class="activity-icon">
+                    <img src="../images/arrow.png" alt="Icône Activité 3" />
+                </div>
+                <div class="activity-description">
+                    <p>VISIBILITÉ</p>
+                    <p>CODE OPTIMISÉ</p>
+                    <p>ACCESSIBILITÉ</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+      <!-- Compétences -->
+ <div class="back-topo">     
+    <div id="skills-anchor"></div>
+    <section id="skills">
+        <h2>COMPÉTENCES</h2>
+        <div class="diploma">
+            <p>RNCP 5 (Bac +2) - DÉVELOPPEUR WEB</p>
+        </div>
+
+        <!-- Branches de compétences -->
+        <div class="skills-branches">
+            <!-- Branche 1 -->
+            <div class="branch">
+                <div class="bar"></div>
+                <div class="skill-item fade-in-opacity">
+                    <img src="../images/html.png" alt="Icone 1" />
+                    <p>HTML</p>
+                </div>
+                <div class="bar"></div>
+                <div class="skill-item fade-in-opacity">
+                    <img src="../images/css.png" alt="Icone 2" />
+                    <p>CSS</p>
+                </div>
+                <div class="bar"></div>
+                <div class="skill-item fade-in-opacity">
+                    <img src="../images/GIT.png" alt="Icone 3" />
+                    <p>GIT</p>
+                </div>
+            </div>
+
+            <!-- Branche 2 -->
+            <div class="branch">
+                <div class="bar"></div>
+                <div class="skill-item fade-in-opacity">
+                    <img src="../images/js.png" alt="Icone 4" />
+                    <p>JS</p>
+                </div>
+                <div class="bar"></div>
+                <div class="skill-item fade-in-opacity">
+                    <img src="../images/react.png" alt="Icone 5" />
+                    <p>REACT</p>
+                </div>
+                <div class="bar"></div>
+                <div class="skill-item fade-in-opacity">
+                    <img src="../images/node.png" alt="Icone 6" />
+                    <p>NODE</p>
+                </div>
+                <div class="bar"></div>
+                <div class="skill-item last-item fade-in-opacity">
+                    <img src="../images/mongodb.png" alt="Icone 7" />
+                    <p>MONGO DB</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>  
+
+<!-- Modding -->
+<div id="modding-anchor"></div>
+<section id="modding">
+    <h2>MODDING</h2>
+    <div class="diploma">
+        <p>AUTODIDACTE - MODDING</p>
+    </div>
+    <div class="modding-background">
+        <div class="overlay"></div>
+        
+        <!-- Branches de modding -->
+        <div class="modding-branches">
+            <!-- Branche 1 -->
+            <div class="branch">
+                <div class="bar"></div>
+                <div class="modding-item fade-in-opacity">
+                    <img src="../images/c++.png" alt="Icône C++" />
+                    <p>C++</p>
+                </div>
+                <div class="bar"></div>
+                <div class="modding-item fade-in-opacity">
+                    <img src="../images/gsc.png" alt="Icône GSC" />
+                    <p>GSC</p>
+                </div>
+                <div class="bar"></div>
+                <div class="modding-item last fade-in-opacity">
+                    <img src="../images/lua.png" alt="Icône LUA" />
+                    <p>LUA</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Contact -->
+<section id="contact">
+    <h2 style="text-transform: uppercase">CONTACT</h2>
+    
+    <div class="contact-info">
+        <a href="mailto:vaslinalex@gmail.com" class="contact-button slide-in">Email</a>
+        
+        <a href="https://steamcommunity.com/profiles/76561199054027172/myworkshopfiles/" target="_blank" class="contact-button slide-in">Modding</a>
+
+        <a href="https://www.linkedin.com/in/alexandre-vaslin-b18811124/" target="_blank" class="contact-button slide-in">LinkedIn</a>
+    </div>
+
+    <div class="social-icons">
+        <a href="https://www.linkedin.com/in/alexandre-vaslin-b18811124/" target="_blank">
+            <img src="../images/LINKDIN.png" alt="Icone LinkedIn" class="slide-in" />
+        </a>
+        <a href="https://discordapp.com/users/710940279271719023" target="_blank">
+            <img src="../images/DISCORD.png" alt="Icone Discord" class="slide-in" />
+        </a>
+        <a href="https://steamcommunity.com/profiles/76561199054027172/myworkshopfiles/" target="_blank">
+            <img src="../images/steam.png" alt="Icone Steam" class="slide-in" />
+        </a>
+    </div>
+</section>
+
+    </main>
+    <footer>
+      <img src="../images/footer.png" alt="Image du footer" />
+    </footer>
+  </body>
+</html>

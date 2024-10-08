@@ -1,0 +1,110 @@
+[
+    {
+        "title": "REACT FRONTEND",
+        "description": "Un projet de développement frontend utilisant React pour créer des interfaces utilisateur dynamiques.",
+        "images": [
+            {
+                "src": "../images/react_1.png",  
+                "alt": "Description de l'image 1"
+            },
+            {
+                "src": "../images/react_2.png",  
+                "alt": "Description de l'image 2"
+            },
+            {
+                "src": "../images/react_3.png",  
+                "alt": "Description de l'image 3"
+            }
+        ]
+    },
+    {
+        "title": "JavaScript Frontend",
+        "description": "Développement d'une application frontend en JavaScript, utilisant des fonctionnalités modernes.",
+        "images": [
+            {
+                "src": "../images/js_1.png",
+                "alt": "Capture d'écran du projet JavaScript Frontend - Image 1"
+            },
+            {
+                "src": "../images/js_2.png",
+                "alt": "Capture d'écran du projet JavaScript Frontend - Image 2"
+            },
+            {
+                "src": "../images/js_3.png",
+                "alt": "Capture d'écran du projet JavaScript Frontend - Image 3"
+            }
+        ]
+    },
+    {
+        "title": "HTML / CSS",
+        "description": "Création d'une page web responsive en utilisant HTML et CSS pour le design et la mise en page.",
+        "images": [
+            {
+                "src": "../images/booki_1.png",
+                "alt": "Capture d'écran du projet HTML/CSS - Image 1"
+            },
+            {
+                "src": "../images/booki_2.png",
+                "alt": "Capture d'écran du projet HTML/CSS - Image 2"
+            },
+            {
+                "src": "../images/booki_3.png",
+                "alt": "Capture d'écran du projet HTML/CSS - Image 3"
+            }
+        ]
+    },
+    {
+        "title": "Optimisation SEO",
+        "description": "Amélioration de la visibilité et l'accessibilité d'un site web grâce à des techniques d'optimisation pour les moteurs de recherche.",
+        "images": [
+            {
+                "src": "../images/optimisation.png",
+                "alt": "Capture d'écran du projet Optimisation SEO - Image 1"
+            },
+            {
+                "src": "../images/optimisation_modale.png",
+                "alt": "Capture d'écran du projet Optimisation SEO - Image 2"
+            },
+            {
+                "src": "../images/optimisationseo.png",
+                "alt": "Capture d'écran du projet Optimisation SEO - Image 3"
+            }
+        ]
+    },
+    {
+        "title": "React Backend",
+        "description": "Développement d'une API backend avec React pour gérer les requêtes des applications frontend.",
+        "images": [
+            {
+                "src": "../images/back_1.png",
+                "alt": "Capture d'écran du projet React Backend - Image 1"
+            },
+            {
+                "src": "../images/back_2.png",
+                "alt": "Capture d'écran du projet React Backend - Image 2"
+            },
+            {
+                "src": "../images/back_3.png",
+                "alt": "Capture d'écran du projet React Backend - Image 3"
+            }
+        ]
+    },
+    {
+        "title": "En Cours",
+        "description": "Un projet en cours pour un Youtuber, voici un appercu de la maquette Figma en cours de réalisation.",
+        "images": [
+            {
+                "src": "../images/zmp.png",
+                "alt": "Capture d'écran du projet En Cours - Image 1"
+            },
+            {
+                "src": "../images/zmp_2.png",
+                "alt": "Capture d'écran du projet En Cours - Image 2"
+            },
+            {
+                "src": "../images/zmp_3.png",
+                "alt": "Capture d'écran du projet En Cours - Image 3"
+            }
+        ]
+    }
+]
