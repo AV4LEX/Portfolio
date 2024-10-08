@@ -30,6 +30,17 @@ header {
     position: relative; 
 }
 
+/* Media Query pour appareils mobiles */
+@media (max-width: 768px) {
+    body {
+        
+        max-width: 375px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+}
+
 
 /* IMAGE BANNER */
 .banner {
@@ -117,7 +128,7 @@ header {
 @media (max-width: 768px) {
  
     .banner {
-        height: auto; 
+        height: 200px; 
     }
 
     .background-overlay {
@@ -376,7 +387,7 @@ header {
 
 .launcher #rocket {
     position: absolute; 
-    z-index: 2000;      
+    z-index: 4000;      
     cursor: pointer;
 }
 
@@ -429,6 +440,7 @@ header {
     background-image: url('../../images/topo_2.png');
     background-size: cover; 
     background-position: center; 
+    overflow: hidden;
 }
 
 #projects::before, #projects::after {
@@ -632,6 +644,7 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 
 
@@ -945,7 +958,7 @@ header {
 /* Version mobile */
 @media (max-width: 768px) {
     .diploma {
-        width: 80%; 
+        width: 90%; 
         height: 30px;
         font-size: 16px;
     }
@@ -1044,6 +1057,7 @@ header {
     background-image: url('../../images/topo_2.png');
     background-size: cover; 
     background-position: center;
+    overflow: hidden;
 }
 
 #contact h2{
@@ -1098,6 +1112,14 @@ header {
 }
 
 
+/* Version mobile */
+@media (max-width: 768px) {
+    .contact-button{
+        width: 85%; 
+        height: 30px;
+        font-size: 16px;
+    }
+}
 
 
 /* FOOTER */

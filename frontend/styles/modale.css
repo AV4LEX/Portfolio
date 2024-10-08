@@ -116,9 +116,13 @@
 /* Version mobile  */
 @media (max-width: 768px) {
     .modal-content {
-        width: 95%; 
+        width: 300px; 
         padding: 10px; 
         max-width: 400px; 
+    }
+
+    h2{
+        font-size: 30px !important;
     }
 
     .modal img {
