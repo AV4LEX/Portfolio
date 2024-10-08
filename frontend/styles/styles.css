@@ -395,7 +395,7 @@ header {
     transform: translate(-50%, -50%); 
     opacity: 0;          
     transition: opacity 0.5s ease, visibility 1s 2s; 
-    z-index: 3000;      
+    z-index: 1999;      
     background-color: transparent; 
     pointer-events: none;
 }
