@@ -389,11 +389,10 @@ header {
     position: absolute; 
     z-index: 4000;      
     cursor: pointer;
+    outline: none; 
+    user-select: none
 }
 
-#rocket:focus {
-    outline: none; 
-}
 
 .launcher #rocket:hover {
     transform: scale(1.20);
