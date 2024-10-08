@@ -391,6 +391,10 @@ header {
     cursor: pointer;
 }
 
+#rocket:focus {
+    outline: none; 
+}
+
 .launcher #rocket:hover {
     transform: scale(1.20);
 }
