@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let projects = []; 
 
     // Charger les données JSON
-    fetch('data/projets.json')
+    fetch('frontend/data/projets.json')
         .then(response => response.json())
         .then(data => {
             projects = data; 
