@@ -8,7 +8,7 @@ const portal = document.getElementById('portal');
 rocket.addEventListener('click', () => {
     setTimeout(() => {
         rocket.blur(); // Retire le focus immédiatement après le clic
-    }, 4); // Délai de 4 millisecondes
+    }, 50); // Délai 
 
     // Animation pour faire disparaître la fusée
     rocket.style.transition = 'transform 0.7s ease-out, opacity 0.7s ease-out';
@@ -23,7 +23,7 @@ rocket.addEventListener('click', () => {
     // Réapparition de la fusée
     setTimeout(() => {
         rocket.style.transition = 'none';
-        rocket.style.transform = 'translate(0, -480px)'; // Pas de rotation ici
+        rocket.style.transform = 'translate(0, -480px)';
         rocket.style.opacity = '0';
 
         setTimeout(() => {
@@ -33,21 +33,21 @@ rocket.addEventListener('click', () => {
 
             // Ajouter une rotation après être revenu à la position d'origine
             setTimeout(() => {
-                rocket.style.transition = 'transform 2s ease-out'; // Transition pour la rotation seulement
-                rocket.style.transform = 'rotate(-45deg)'; // Rotation après être revenu à la position
+                rocket.style.transition = 'transform 2s ease-out'; 
+                rocket.style.transform = 'rotate(-45deg)'; 
 
                 setTimeout(() => {
                     rocket.style.transition = 'transform 2s ease-out, opacity 0.5s ease-out';
-                    rocket.style.transform = 'translate(0, 0) rotate(0deg)'; // Remettre la rotation à 0 après la rotation initiale
+                    rocket.style.transform = 'translate(0, 0) rotate(0deg)'; 
 
                     setTimeout(() => {
                         rocket.style.zIndex = '2000'; 
                         portal.classList.remove('show'); 
                     }, 1000); // Délai avant de retirer le portail
 
-                }, 1000); // Temps avant d'appliquer la première rotation
-            }, 0); // Aucune attente avant la première rotation
+                }, 1000); // Temps avant première rotation
+            }, 0); 
             
-        }, 250); // Réapparition de la fusée après un délai
+        }, 250); // Réapparition de la fusée 
     }, 1300); // Délai avant la réapparition
 });
