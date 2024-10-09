@@ -2,6 +2,7 @@
     {
         "title": "REACT FRONTEND",
         "description": "Un projet de développement frontend utilisant React pour créer des interfaces utilisateur dynamiques.",
+        "link": "https://github.com/AV4LEX/P5_Kasa",  
         "images": [
             {
                 "src": "images/react_1.png",  
@@ -20,6 +21,7 @@
     {
         "title": "JavaScript Frontend",
         "description": "Développement d'une application frontend en JavaScript, utilisant des fonctionnalités modernes.",
+        "link": "https://github.com/AV4LEX/P3_Bluel",  
         "images": [
             {
                 "src": "images/js_1.png",
@@ -38,6 +40,7 @@
     {
         "title": "HTML / CSS",
         "description": "Création d'une page web responsive en utilisant HTML et CSS pour le design et la mise en page.",
+        "link": "https://github.com/AV4LEX/P2_booky",  
         "images": [
             {
                 "src": "images/booki_1.png",
@@ -56,6 +59,7 @@
     {
         "title": "Optimisation SEO",
         "description": "Amélioration de la visibilité et l'accessibilité d'un site web grâce à des techniques d'optimisation pour les moteurs de recherche.",
+        "link": "https://github.com/AV4LEX/P4_Carducci",  
         "images": [
             {
                 "src": "images/optimisation.png",
@@ -74,6 +78,7 @@
     {
         "title": "React Backend",
         "description": "Développement d'une API backend avec React pour gérer les requêtes des applications frontend.",
+        "link": "https://github.com/AV4LEX/P6_Grimoire",  
         "images": [
             {
                 "src": "images/back_1.png",
@@ -91,7 +96,7 @@
     },
     {
         "title": "En Cours",
-        "description": "Un projet en cours pour un Youtuber, voici un appercu de la maquette Figma en cours de réalisation.",
+        "description": "Un projet pour un Youtuber, voici un aperçu de la maquette Figma en cours de réalisation.",
         "images": [
             {
                 "src": "images/zmp.png",

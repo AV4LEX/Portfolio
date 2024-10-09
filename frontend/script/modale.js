@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const modal = document.getElementById('project-modal');
     const modalTitle = document.getElementById('modal-title');
     const modalDescription = document.getElementById('modal-description');
+    const modalLink = document.getElementById('modal-link'); // Ajoutez une référence pour le lien
     const modalImageContainer = document.getElementById('modal-image-container');
     const prevBtn = document.getElementById('prev-btn');
     const nextBtn = document.getElementById('next-btn');
@@ -28,6 +29,16 @@ document.addEventListener("DOMContentLoaded", function () {
         const project = projects[index]; 
         modalTitle.textContent = project.title; 
         modalDescription.textContent = project.description; 
+
+        // Vérifiez si un lien existe pour le projet
+        if (project.link) {
+            modalLink.href = project.link; 
+            modalLink.textContent = "Voir le code"; 
+            modalLink.style.display = 'block';
+        } else {
+            modalLink.style.display = 'none'; 
+        }
+
         currentImageIndex = 0; 
         updateCarousel(index); 
         modal.style.display = 'flex'; 
@@ -75,7 +86,7 @@ document.addEventListener("DOMContentLoaded", function () {
         modal.style.display = 'none'; 
     });
 
-    // Optionnel : Ferme la modale quand on clique en dehors de celle-ci
+    // Ferme la modale quand on clique en dehors de celle-ci
     window.addEventListener('click', function(event) {
         if (event.target === modal) {
             modal.style.display = 'none'; 
