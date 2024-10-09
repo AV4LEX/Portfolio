@@ -381,9 +381,6 @@ header {
     height: 80px;
 }
 
-.launcher:hover{
-    transform: scale(1.10);
-}
 
 .launcher #rocket {
     position: absolute; 
@@ -396,6 +393,11 @@ header {
 
 .launcher #rocket:hover {
     transform: scale(1.20);
+}
+
+.launcher #rocket:focus{
+    text-decoration: none;
+    outline: none;
 }
 
 .portal {
