@@ -710,14 +710,15 @@ header {
     max-width: 250px; 
     width: 100%;
     height: 450px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border: 5px solid #4A00CB;
-    transition: transform 0.3s ease; 
+    transition: transform 0.3s ease;
+    transition: box-shadow 0.3s ease;
 }
 
 .activity:hover{
     transform: scale(1.05) !important;
-    box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.5) !important;
+    box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.3);
 }
 
 .activity-icon {
