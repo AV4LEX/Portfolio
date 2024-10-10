@@ -729,6 +729,11 @@ header {
     margin-bottom: 20px; 
 }
 
+.dev-icon{
+    width: 100px !important;
+    height: 100px !important;
+}
+
 .activity-icon img {
     width: 150px; 
     display: block; 
