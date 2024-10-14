@@ -7,9 +7,8 @@ Présentation
 
 
 Bienvenue sur mon portfolio, une vitrine interactive de mes compétences et réalisations en développement web. 
-Ce site met en avant mon expertise en utilisant React aussi bien pour le front-end que pour le back-end, 
-et s'appuie sur MongoDB pour la gestion de données. Chaque projet présenté démontre ma capacité à créer 
-des applications performantes et évolutives.
+Ce site met en avant mon expertise en utilisant React aussi bien pour le front-end que pour le back-end. 
+Chaque projet présenté démontre ma capacité à créer des applications performantes et évolutives.
 
 *****************************************************************************************************
 Fonctionnalités principales
@@ -33,10 +32,6 @@ Technologies Utilisées
 
 Front-end : React, HTML5, CSS3, JavaScript
 
-Back-end : React pour la logique côté serveur
-
-Base de données : MongoDB
-
-Outils de développement : Git, VSCode, etc.
+Outils de développement : Git, VSCode
 
 
